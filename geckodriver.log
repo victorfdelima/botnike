@@ -1,0 +1,31 @@
+1630974664158	geckodriver	INFO	Listening on 127.0.0.1:59777
+1630974667192	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Pichau\\AppData\\Local\\Temp\\rust_mozprofileZ5lHQl"
+1630974667527	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Pichau\\AppData\\Local\\Temp\\rust_mozprofileZ5lHQl\\search.json.mozlz4", (void 0)))
+1630974672203	Marionette	INFO	Listening on port 59785
+1630974672490	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1630977184109	Marionette	INFO	Stopped listening on port 59785
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+[Parent 9796, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chconsole.warn: SearchSettings: "get: No se
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+pData\\Local\\Temp\\rust_mozprofilejLSjZQ\\search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+1630977187367	Marionette	INFO	Listening on port 50738
+1630977187447	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1630977220117	Marionette	INFO	Stopped listening on port 50738
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+1630977226223	geckodriver	INFO	Listening on 127.0.0.1:64418
+1630977229260	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Pichau\\AppData\\Local\\Temp\\rust_mozprofileNhYu9g"
+1630977229582	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Pichau\\AppData\\Local\\Temp\\rust_mozprofileNhYu9g\\search.json.mozlz4", (void 0)))
+1630977234794	Marionette	INFO	Listening on port 61036
+1630977235097	RemoteAgent	WARN	TLS certificate errors will be ignored for this session

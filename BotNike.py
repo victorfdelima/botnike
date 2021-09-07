@@ -35,7 +35,7 @@ time.sleep(3);
 time.sleep(3);
 driver.get('https://www.nike.com.br/chuteira-nike-tiempo-legend-9-academy-infantil-67-80-83-337420?gridPosition=A4');
 time.sleep(1);
-
+print(f"{botName} Diz: Colocando Produto fake");
 #Ignora os demais popups
 driver.find_element_by_xpath('/html/body/div[4]/div/a').click();
 time.sleep(1);
@@ -47,7 +47,7 @@ driver.find_element_by_css_selector('#btn-comprar').click()
 time.sleep(2);
 driver.find_element_by_xpath('/html/body/header[1]/div[1]/div/div/div[2]/span[3]/div[2]/div/div[2]/div[2]/a[2]').click()
 time.sleep(1);
-
+print(f"{botName} Diz: Ignorando Popups");
 #Abre uma nova aba com o produto SNKRS
 driver.execute_script("window.open('');")
 driver.switch_to.window(driver.window_handles[1])
@@ -62,7 +62,12 @@ driver.find_element_by_css_selector('#btn-comprar').click()
 time.sleep(2);
 driver.find_element_by_xpath('/html/body/header[1]/div[1]/div/div/div[2]/span[3]/div[2]/div/div[2]/div[2]/a[2]').click()
 time.sleep(1);
+print(f"{botName} Diz: Abri o drop selecionado e peguei o tamanho e vou solicitar o SMS");
 
+#Inputa o numero do telefone e aguarda 4 segundos para clicar
+driver.find_element_by_name('CelularCliente').click()
+time.sleep(1)
+driver.find_element_by_name('CelularCliente').sendKeys('31998450330')
 
 
 #driver.find_element_by_xpath('/html/body/main/div[1]/div[8]/div[2]/div[5]/a').click()
