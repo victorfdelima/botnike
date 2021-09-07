@@ -22,11 +22,11 @@ print(f"{botName} Diz: Entrei no site..!")
 time.sleep(1);
 driver.find_element_by_name('emailAddress').click();
 time.sleep(0.7);
-driver.find_element_by_name('emailAddress').send_keys('vittinferreira@gmail.com', Keys.TAB);
+driver.find_element_by_name('emailAddress').send_keys('lucasjefferson00@gmail.com', Keys.TAB);
 time.sleep(0.5);
 driver.find_element_by_name('password');
 time.sleep(0.5);
-driver.find_element_by_name('password').send_keys('82384580vV!');
+driver.find_element_by_name('password').send_keys('Saw50812@');
 time.sleep(0.8);
 
 #CLICA NO BOTÃO DE LOGIN
