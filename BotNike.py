@@ -100,7 +100,7 @@ time.sleep(20)
 for c in range(20, -1, -1):
     c = c - 0
     time.sleep(1)
-print("Você tem {} segundos para inputar o código..".format(c))
+    print("Você tem {} segundos para inputar o código..".format(c))
 
 
 driver.find_element_by_xpath('/html/body/div[19]/div/div/div[2]/form[2]/div[2]/button[1]').click()
@@ -142,7 +142,22 @@ time.sleep(0.3)
 driver.find_element_by_id('ccard-document').send_keys('5', Keys.TAB)
 time.sleep(0.3)
 driver.find_element_by_id('ccard-document').send_keys('5', Keys.TAB)
-
+time.sleep(0.5)
+driver.find_element_by_css_selector('#exp-month').click()
+time.sleep(0.5)
+driver.find_element_by_css_selector('#exp-month > option:nth-child(4)').click()
+time.sleep(0.5)
+driver.find_element_by_css_selector('#exp-year').click()
+time.sleep(0.5)
+driver.find_element_by_css_selector('#exp-year > option:nth-child(9)').click()
+time.sleep(1)
+driver.find_element_by_css_selector('#security-code').send_keys('892')
+time.sleep(0.6)
+driver.find_element_by_css_selector('#linkTrocasCancelamentos').click()
+time.sleep(1)
+driver.find_element_by_css_selector('.false > button:nth-child(1)').click()
+time.sleep(1)
+driver.find_element_by_css_selector('#confirmar-pagamento').click()
 
 #Inputa o numero do telefone e aguarda 4 segundos para clicar
 

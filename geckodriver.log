@@ -1392,3 +1392,298 @@ JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILU
 
 ###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
+1630989642097	geckodriver	INFO	Listening on 127.0.0.1:53228
+1630989645113	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\jeffe\\AppData\\Local\\Temp\\rust_mozprofiletJ6y6s"
+1630989645458	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\jeffe\\AppData\\Local\\Temp\\rust_mozprofiletJ6y6s\\search.json.mozlz4", (void 0)))
+1630989647833	Marionette	INFO	Listening on port 53236
+1630989648230	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+JavaScript error: https://unite.nike.com.br/s3/unite/app/906/scripts/app.min.js, line 1: Error: The placeholder for login is missing. (nike-unite-login-view)
+JavaScript error: https://unite.nike.com.br/s3/unite/app/906/scripts/app.min.js, line 1: Error: The placeholder for login is missing. (nike-unite-login-view)
+JavaScript error: https://unite.nike.com.br/s3/unite/app/906/scripts/app.min.js, line 1: Error: The placeholder for login is missing. (nike-unite-login-view)
+1630989690658	Marionette	INFO	Stopped listening on port 53236
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+1630989696779	geckodriver	INFO	Listening on 127.0.0.1:51915
+1630989699799	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\jeffe\\AppData\\Local\\Temp\\rust_mozprofileBbLYJw"
+1630989700180	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\jeffe\\AppData\\Local\\Temp\\rust_mozprofileBbLYJw\\search.json.mozlz4", (void 0)))
+1630989702627	Marionette	INFO	Listening on port 51927
+1630989702928	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+JavaScript error: https://unite.nike.com.br/s3/unite/app/906/scripts/app.min.js, line 1: Error: The placeholder for login is missing. (nike-unite-login-view)
+JavaScript error: https://unite.nike.com.br/s3/unite/app/906/scripts/app.min.js, line 1: Error: The placeholder for login is missing. (nike-unite-login-view)
+JavaScript error: https://unite.nike.com.br/s3/unite/app/906/scripts/app.min.js, line 1: Error: The placeholder for login is missing. (nike-unite-login-view)
+1630989762200	Marionette	INFO	Stopped listening on port 51927
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1630989765868	geckodriver	INFO	Listening on 127.0.0.1:55114
+1630989768876	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\jeffe\\AppData\\Local\\Temp\\rust_mozprofiledF3B9r"
+1630989769223	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\jeffe\\AppData\\Local\\Temp\\rust_mozprofiledF3B9r\\search.json.mozlz4", (void 0)))
+1630989771484	Marionette	INFO	Listening on port 55124
+1630989771997	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+JavaScript error: https://unite.nike.com.br/s3/unite/app/906/scripts/app.min.js, line 1: Error: The placeholder for login is missing. (nike-unite-login-view)
+JavaScript error: https://unite.nike.com.br/s3/unite/app/906/scripts/app.min.js, line 1: Error: The placeholder for login is missing. (nike-unite-login-view)
+JavaScript error: https://unite.nike.com.br/s3/unite/app/906/scripts/app.min.js, line 1: Error: The placeholder for login is missing. (nike-unite-login-view)
+JavaScript error: https://unite.nike.com.br/s3/unite/app/906/scripts/app.min.js, line 1: Error: The placeholder for login is missing. (nike-unite-login-view)
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+1630990812648	Marionette	INFO	Stopped listening on port 55124
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+ng on port 55571
+1630990450256	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+JavaScript error: https://unite.nike.com.br/s3/unite/app/906/scripts/app.min.js, line 1: Error: The placeholder for login is missing. (nike-unite-login-view)
+JavaScript error: https://unite.nike.com.br/s3/unite/app/906/scripts/app.min.js, line 1: Error: The placeholder for login is missing. (nike-unite-login-view)
+JavaScript error: https://unite.nike.com.br/s3/unite/app/906/scripts/app.min.js, line 1: Error: The placeholder for login is missing. (nike-unite-login-view)
+JavaScript error: https://unite.nike.com.br/s3/unite/app/906/scripts/app.min.js, line 1: Error: The placeholder for login is missing. (nike-unite-login-view)
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+console.warn: "Resource  of root-node was not found."
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: resource://devtools/client/jsonview/Sniffer.jsm, line 56: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIHttpChannel.contentType]
+console.warn: "Resource  of root-node was not found."
+console.error: "stylesheets: fetch failed for https://images.lojanike.com.br/site/ni/dist/css/Index.css?v=a627e381cacdaa6ca5086b7f473358fb, using system principal instead."
+console.error: "stylesheets: fetch failed for https://images.lojanike.com.br/site/ni/dist/css/Index.css?v=a627e381cacdaa6ca5086b7f473358fb, using system principal instead."
+console.error: "stylesheets: fetch failed for https://images.lojanike.com.br/site/ni/dist/css/Index.css?v=a627e381cacdaa6ca5086b7f473358fb, using system principal instead."
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "InspectorUtils.hasRulesModifiedByCSSOM: Argument 1 does not implement interface CSSStyleSheet."
+console.error: (new TypeError("InspectorUtils.hasRulesModifiedByCSSOM: Argument 1 does not implement interface CSSStyleSheet.", "resource://devtools/server/actors/style-rule.js", 157))
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "InspectorUtils.hasRulesModifiedByCSSOM: Argument 1 does not implement interface CSSStyleSheet."
+console.error: (new TypeError("InspectorUtils.hasRulesModifiedByCSSOM: Argument 1 does not implement interface CSSStyleSheet.", "resource://devtools/server/actors/style-rule.js", 157))
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "InspectorUtils.hasRulesModifiedByCSSOM: Argument 1 does not implement interface CSSStyleSheet."
+console.error: (new TypeError("InspectorUtils.hasRulesModifiedByCSSOM: Argument 1 does not implement interface CSSStyleSheet.", "resource://devtools/server/actors/style-rule.js", 157))
+console.error: (new Error("Protocol error (TypeError): InspectorUtils.hasRulesModifiedByCSSOM: Argument 1 does not implement interface CSSStyleSheet. from: server0.conn0.child4/pagestyle57 (resource://devtools/server/actors/style-rule.js:157:25)", "resource://devtools/shared/protocol/Front.js", 362))
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://unite.nike.com.br/s3/unite/app/906/scripts/app.min.js, line 0: Error: The placeholder for login is missing. (nike-unite-login-view)
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dis1630990813204	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\jeffe\\AppData\\Local\\Temp\\rust_mozprofilespA32V"
+1630990813505	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\jeffe\\AppData\\Local\\Temp\\rust_mozprofilespA32V\\search.json.mozlz4", (void 0)))
+1630990815367	Marionette	INFO	Listening on port 51696
+1630990815821	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+JavaScript error: https://unite.nike.com.br/s3/unite/app/906/scripts/app.min.js, line 1: Error: The placeholder for login is missing. (nike-unite-login-view)
+JavaScript error: https://unite.nike.com.br/s3/unite/app/906/scripts/app.min.js, line 1: Error: The placeholder for login is missing. (nike-unite-login-view)
+JavaScript error: https://unite.nike.com.br/s3/unite/app/906/scripts/app.min.js, line 1: Error: The placeholder for login is missing. (nike-unite-login-view)
+JavaScript error: https://unite.nike.com.br/s3/unite/app/906/scripts/app.min.js, line 1: Error: The placeholder for login is missing. (nike-unite-login-view)
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+1630990976468	Marionette	INFO	Stopped listening on port 51696
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+[Parent 18016, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1630991077922	geckodriver	INFO	Listening on 127.0.0.1:52019
+1630991087409	geckodriver	INFO	Listening on 127.0.0.1:52028
+1630991090451	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\jeffe\\AppData\\Local\\Temp\\rust_mozprofile4ryrD5"
+1630991090779	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\jeffe\\AppData\\Local\\Temp\\rust_mozprofile4ryrD5\\search.json.mozlz4", (void 0)))
+1630991093202	Marionette	INFO	Listening on port 52036
+1630991093576	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+JavaScript error: https://www.nike.com.br/api/v2/auth/nike-unite/set?code=eyJhbGciOiJSUzI1NiIsImtpZCI6ImNhMWMwZTlkLWRiNjQtNDNlOC05NTBjLTM4ZTBhYWNlYmZmY3NpZyJ9.eyJpYXQiOjE2MzA5OTExMDAsImV4cCI6MTYzMDk5MTcwMCwiaXNzIjoib2F1dGgyY29kIiwianRpIjoiYzE3MTFkZmMtMGU5Zi00YjllLWI4ZjktYmExMzcxZGRiMWRmIiwiZW5jIjpbInBybiJdLCJhdWQiOiJvYXV0aDIiLCJwcm4iOiJBQUhFNXJUakhGdkNVdEtvSXJBNi85a3VGcnh5QVNLWkFVMFkxSzBPSFN3MUhWYldpUWk4YWpnQVlRWWdLUT09IiwicHJ0IjoibmlrZTpwbHVzIiwic3ViIjoiY29tLm5pa2UuY29tbWVyY2UubmlrZWRvdGNvbS5icmF6aWwub2F1dGgud2ViIiwiY2xpIjoiUUxlZ0dpVVUwNDJYTUFVV0U0cVdMM2ZQVUlycFFUbnEiLCJzYnQiOiJuaWtlOmNsaWVudCJ9.ek-fSea9FNirXgw94S8tU8nsIr_znchTJmjCEbNi9PNgMhzE8jgEdRxw5KG292QKJsYlT_-FbcMyiRLETfvT2J6u2ltOT8XD7azapjUQrxogYi_HJa_Z9Mt9p_XP87Rbg0rHncJve_5oIXjFVkD8dXx4Vgy43vTM4oyRqXUx5qc0Zofua9R4L-cm3NhuaR1_LhF2TKQw0an-tmbn6W4DMD8DMJIgROzChdDZnx1tUpQcmMSrZdTklDdc_xJ3i3MSSI97cLnXkHMJ0b6ShSPzhG8BV0_9edmQ2WAElEtXa--nI9GterXtVWGwyp-dIMpEGoT5D_HVcwundIkYEl3hqw&state=%2F, line 1: ReferenceError: $ is not defined
+JavaScript error: https://unite.nike.com.br/s3/unite/app/906/scripts/app.min.js, line 1: Error: The placeholder for login is missing. (nike-unite-login-view)
+JavaScript error: https://unite.nike.com.br/s3/unite/app/906/scripts/app.min.js, line 1: Error: The placeholder for login is missing. (nike-unite-login-view)
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=a76343ce6334a2b9229c331b1add0420&a=PRODUCAO&nopack, line 1: TypeError: $(...).offset() is undefined
+1630991270014	Marionette	INFO	Stopped listening on port 52036
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
