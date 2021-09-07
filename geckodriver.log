@@ -1,0 +1,19 @@
+1630975567070	geckodriver	INFO	Listening on 127.0.0.1:61483
+1630975570093	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\jeffe\\AppData\\Local\\Temp\\rust_mozprofileEp4iXC"
+1630975570569	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\jeffe\\AppData\\Local\\Temp\\rust_mozprofileEp4iXC\\search.json.mozlz4", (void 0)))
+1630975573625	Marionette	INFO	Listening on port 61494
+1630975573723	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+JavaScript error: https://unite.nike.com.br/s3/unite/app/906/scripts/app.min.js, line 1: Error: The placeholder for login is missing. (nike-unite-login-view)
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://unite.nike.com.br/s3/unite/app/906/scripts/app.min.js, line 1: Error: The placeholder for login is missing. (nike-unite-login-view)
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=4a121a3df9a5afac2cb5416850ccca97&a=PRODUCAO&nopack, line 1: TypeError: Sizebay is not a function
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=4a121a3df9a5afac2cb5416850ccca97&a=PRODUCAO&nopack, line 1: TypeError: Sizebay is not a function
+JavaScript error: https://images.lojanike.com.br/site/ni/dist/js/Index.js?p=0&v=4a121a3df9a5afac2cb5416850ccca97&a=PRODUCAO&nopack, line 1: TypeError: Sizebay is not a function
+JavaScript error: https://unite.nike.com.br/s3/unite/app/906/scripts/app.min.js, line 1: Error: The placeholder for login is missing. (nike-unite-login-view)
+1630975627115	Marionette	INFO	Stopped listening on port 61494
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: resource://gre/modules/CrashManager.jsm, line 829: AbortError: IOUtils: Shutting down and refusing additional I/O tasks
