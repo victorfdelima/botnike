@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+# coding: utf-8
+
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
@@ -43,24 +46,24 @@ driver.execute_script("window.scrollTo(0, 200)");
 time.sleep(1);
 driver.find_element_by_css_selector('#variacoesTamanhos > ul > li:nth-child(2) > label').click();
 time.sleep(2);
-driver.find_element_by_css_selector('#btn-comprar').click()
+driver.find_element_by_css_selector('#btn-comprar').click();
 time.sleep(2);
-driver.find_element_by_xpath('/html/body/header[1]/div[1]/div/div/div[2]/span[3]/div[2]/div/div[2]/div[2]/a[2]').click()
+driver.find_element_by_xpath('/html/body/header[1]/div[1]/div/div/div[2]/span[3]/div[2]/div/div[2]/div[2]/a[2]').click();
 time.sleep(1);
 print(f"{botName} Diz: Ignorando Popups");
 #Abre uma nova aba com o produto SNKRS
-driver.execute_script("window.open('');")
-driver.switch_to.window(driver.window_handles[1])
+driver.execute_script("window.open('');");
+driver.switch_to.window(driver.window_handles[1]);
 time.sleep(2);
 driver.get('https://www.nike.com.br/nike-dunk-low-retro-153-169-211-341232');
 time.sleep(1.5);
-driver.execute_script("window.scrollTo(0, 300)")
-time.sleep(3)
-driver.find_element_by_css_selector('.variacoes-tamanhos__lista > li:nth-child(4) > label:nth-child(2)')
-time.sleep(1)
+driver.execute_script("window.scrollTo(0, 500)");
+time.sleep(3);
+driver.find_element_by_css_selector('.variacoes-tamanhos__lista > li:nth-child(13) > label:nth-child(2)').click();
+time.sleep(1);
 driver.find_element_by_css_selector('#btn-comprar').click()
 time.sleep(2);
-driver.find_element_by_xpath('/html/body/header[1]/div[1]/div/div/div[2]/span[3]/div[2]/div/div[2]/div[2]/a[2]').click()
+driver.find_element_by_xpath('/html/body/header[1]/div[1]/div/div/div[2]/span[3]/div[2]/div/div[2]/div[2]/a[2]').click();
 time.sleep(1);
 print(f"{botName} Diz: Abri o drop selecionado e peguei o tamanho e vou solicitar o SMS");
 
