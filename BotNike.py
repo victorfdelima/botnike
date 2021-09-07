@@ -51,26 +51,101 @@ time.sleep(2);
 driver.find_element_by_xpath('/html/body/header[1]/div[1]/div/div/div[2]/span[3]/div[2]/div/div[2]/div[2]/a[2]').click();
 time.sleep(1);
 print(f"{botName} Diz: Ignorando Popups");
+
 #Abre uma nova aba com o produto SNKRS
-driver.execute_script("window.open('');");
-driver.switch_to.window(driver.window_handles[1]);
+driver.execute_script("window.open('');")
+time.sleep(1)
+driver.switch_to.window(driver.window_handles[1])
+driver.get('https://www.nike.com.br/dunk-low-153-169-211-345295');
 time.sleep(2);
-driver.get('https://www.nike.com.br/nike-dunk-low-retro-153-169-211-341232');
-time.sleep(1.5);
-driver.execute_script("window.scrollTo(0, 500)");
-time.sleep(3);
-driver.find_element_by_css_selector('.variacoes-tamanhos__lista > li:nth-child(13) > label:nth-child(2)').click();
-time.sleep(1);
+print(f"{botName} Diz: Abri uma nova aba e adicionarei o produto ao carrinho")
+#Aceita os coockies do site. (Só é possível clicar no botão de compra com os coockies aceitos)
+#driver.find_element_by_xpath('/html/body/div[4]/div/a').click()
+#time.sleep(2);
+
+#Rola até o meio da página
+driver.execute_script("window.scrollTo(0, 500)")
+time.sleep(2);
+driver.find_element_by_css_selector('#variacoes > div > ul > li:nth-child(6) > label').click();
+time.sleep(2);
 driver.find_element_by_css_selector('#btn-comprar').click()
-time.sleep(2);
-driver.find_element_by_xpath('/html/body/header[1]/div[1]/div/div/div[2]/span[3]/div[2]/div/div[2]/div[2]/a[2]').click();
 time.sleep(1);
-print(f"{botName} Diz: Abri o drop selecionado e peguei o tamanho e vou solicitar o SMS");
+print(f"{botName} Diz:  Pronto! Agora irei autenticar via SMS..")
+driver.find_element_by_name('CelularCliente').send_keys('3')
+time.sleep(2)
+driver.find_element_by_name('CelularCliente').send_keys('1')
+time.sleep(0.3)
+driver.find_element_by_name('CelularCliente').send_keys('9')
+time.sleep(0.3)
+driver.find_element_by_name('CelularCliente').send_keys('9')
+time.sleep(0.3)
+driver.find_element_by_name('CelularCliente').send_keys('3')
+time.sleep(0.3)
+driver.find_element_by_name('CelularCliente').send_keys('6')
+time.sleep(0.3)
+driver.find_element_by_name('CelularCliente').send_keys('7')
+time.sleep(0.3)
+driver.find_element_by_name('CelularCliente').send_keys('8')
+time.sleep(0.3)
+driver.find_element_by_name('CelularCliente').send_keys('6')
+time.sleep(0.3)
+driver.find_element_by_name('CelularCliente').send_keys('9')
+driver.find_element_by_name('CelularCliente').send_keys('1', Keys.RETURN)
+time.sleep(0.2)
+print(f"{botName} Diz: Autenticando..")
+time.sleep(0.2)
+print(f"{botName} Diz: Quase la..")
+time.sleep(20)
+
+for c in range(20, -1, -1):
+    c = c - 0
+    time.sleep(1)
+print("Você tem {} segundos para inputar o código..".format(c))
+
+
+driver.find_element_by_xpath('/html/body/div[19]/div/div/div[2]/form[2]/div[2]/button[1]').click()
+time.sleep(3)
+driver.find_element_by_css_selector('div.ckt__linha-produto:nth-child(2) > div:nth-child(5) > a:nth-child(1)').click()
+time.sleep(1)
+driver.find_element_by_xpath('/html/body/main/div[4]/div/div[4]/a').click()
+time.sleep(1.5)
+driver.find_element_by_id('seguir-pagamento').click()
+time.sleep(2)
+driver.find_element_by_css_selector('button.undefined:nth-child(1)').click()
+time.sleep(2)
+driver.find_element_by_id('ccard-number').click()
+time.sleep(2)
+driver.find_element_by_id('ccard-number').send_keys('4716 6217 2264 7088', Keys.TAB)
+time.sleep(2)
+driver.find_element_by_id('ccard-owner').click()
+time.sleep(1)
+driver.find_element_by_id('ccard-owner').send_keys('Jefferson Lucas Gomes', Keys.TAB)
+time.sleep(1)
+driver.find_element_by_id('ccard-document').send_keys('5', Keys.TAB)
+time.sleep(0.3)
+driver.find_element_by_id('ccard-document').send_keys('5', Keys.TAB)
+time.sleep(0.3)
+driver.find_element_by_id('ccard-document').send_keys('5', Keys.TAB)
+time.sleep(0.3)
+driver.find_element_by_id('ccard-document').send_keys('5', Keys.TAB)
+time.sleep(0.3)
+driver.find_element_by_id('ccard-document').send_keys('5', Keys.TAB)
+time.sleep(0.3)
+driver.find_element_by_id('ccard-document').send_keys('5', Keys.TAB)
+time.sleep(0.3)
+driver.find_element_by_id('ccard-document').send_keys('5', Keys.TAB)
+time.sleep(0.3)
+driver.find_element_by_id('ccard-document').send_keys('5', Keys.TAB)
+time.sleep(0.3)
+driver.find_element_by_id('ccard-document').send_keys('5', Keys.TAB)
+time.sleep(0.3)
+driver.find_element_by_id('ccard-document').send_keys('5', Keys.TAB)
+time.sleep(0.3)
+driver.find_element_by_id('ccard-document').send_keys('5', Keys.TAB)
+
 
 #Inputa o numero do telefone e aguarda 4 segundos para clicar
-driver.find_element_by_name('CelularCliente').click()
-time.sleep(1)
-driver.find_element_by_name('CelularCliente').sendKeys('31998450330')
+
 
 
 #driver.find_element_by_xpath('/html/body/main/div[1]/div[8]/div[2]/div[5]/a').click()
