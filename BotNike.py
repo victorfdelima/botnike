@@ -8,6 +8,7 @@ import time
 
 #ABRE O FIREFOX E ENTRA NO SITE DA NIKE
 
+
 botName = 'Maxmilliam Bot'
 driver = webdriver.Firefox();
 driver.maximize_window()
@@ -33,84 +34,30 @@ time.sleep(3);
 
 #Coloca um produto qualquer no carrinho
 time.sleep(3);
-driver.get('https://www.nike.com.br/chuteira-nike-tiempo-legend-9-academy-infantil-67-80-83-337420?gridPosition=A4');
+driver.get('https://www.nike.com.br/tenis-nike-air-zoom-alphafly-next-flyknit-feminino-1-16-214-327339?gridPosition=A2');
 time.sleep(1);
 print(f"{botName} Diz: Colocando Produto fake");
+
 #Ignora os demais popups
 driver.find_element_by_xpath('/html/body/div[4]/div/a').click();
 time.sleep(1);
 driver.execute_script("window.scrollTo(0, 200)");
 time.sleep(1);
-driver.find_element_by_css_selector('#variacoesTamanhos > ul > li:nth-child(2) > label').click();
+driver.find_element_by_css_selector('#variacoesTamanhos > ul > li:nth-child(1) > label').click();
 time.sleep(2);
 driver.find_element_by_css_selector('#btn-comprar').click();
 time.sleep(2);
 driver.find_element_by_xpath('/html/body/header[1]/div[1]/div/div/div[2]/span[3]/div[2]/div/div[2]/div[2]/a[2]').click();
-time.sleep(1);
-print(f"{botName} Diz: Ignorando Popups");
-
-#Abre uma nova aba com o produto SNKRS
-driver.execute_script("window.open('');")
-time.sleep(1)
-driver.switch_to.window(driver.window_handles[1])
-driver.get('https://www.nike.com.br/dunk-low-153-169-211-345295');
-time.sleep(2);
-print(f"{botName} Diz: Abri uma nova aba e adicionarei o produto ao carrinho")
-#Aceita os coockies do site. (Só é possível clicar no botão de compra com os coockies aceitos)
-#driver.find_element_by_xpath('/html/body/div[4]/div/a').click()
-#time.sleep(2);
-
-#Rola até o meio da página
-driver.execute_script("window.scrollTo(0, 500)")
-time.sleep(2);
-driver.find_element_by_css_selector('#variacoes > div > ul > li:nth-child(6) > label').click();
-time.sleep(2);
-driver.find_element_by_css_selector('#btn-comprar').click()
-time.sleep(1);
-print(f"{botName} Diz:  Pronto! Agora irei autenticar via SMS..")
-# Adiciona humanamente um numero de celular para receber SMS
-driver.find_element_by_name('CelularCliente').send_keys('3')
-time.sleep(2)
-driver.find_element_by_name('CelularCliente').send_keys('1')
-time.sleep(0.3)
-driver.find_element_by_name('CelularCliente').send_keys('9')
-time.sleep(0.3)
-driver.find_element_by_name('CelularCliente').send_keys('9')
-time.sleep(0.3)
-driver.find_element_by_name('CelularCliente').send_keys('3')
-time.sleep(0.3)
-driver.find_element_by_name('CelularCliente').send_keys('6')
-time.sleep(0.3)
-driver.find_element_by_name('CelularCliente').send_keys('7')
-time.sleep(0.3)
-driver.find_element_by_name('CelularCliente').send_keys('8')
-time.sleep(0.3)
-driver.find_element_by_name('CelularCliente').send_keys('6')
-time.sleep(0.3)
-driver.find_element_by_name('CelularCliente').send_keys('9')
-driver.find_element_by_name('CelularCliente').send_keys('1', Keys.RETURN)
-time.sleep(0.2)
-print(f"{botName} Diz: Autenticando..")
-time.sleep(0.2)
-print(f"{botName} Diz: Quase la..")
-time.sleep(20)
-# Método para realizar contagem em segundos para inputar código enviado para o celular
-for c in range(20, -1, -1):
-    c = c - 0
-    time.sleep(1)
-    print("Você tem {} segundos para inputar o código..".format(c))
-
-
-driver.find_element_by_xpath('/html/body/div[19]/div/div/div[2]/form[2]/div[2]/button[1]').click()
-time.sleep(3)
-driver.find_element_by_css_selector('div.ckt__linha-produto:nth-child(2) > div:nth-child(5) > a:nth-child(1)').click()
-time.sleep(1)
+time.sleep(3);
+driver.execute_script("window.scrollTo(0, 350)")
+time.sleep(3);
 driver.find_element_by_xpath('/html/body/main/div[4]/div/div[4]/a').click()
-time.sleep(1.5)
-driver.find_element_by_id('seguir-pagamento').click()
-time.sleep(2)
+time.sleep(3);
+driver.find_element_by_css_selector('#seguir-pagamento').click()
+time.sleep(1);
 driver.find_element_by_css_selector('button.undefined:nth-child(1)').click()
-print(f"{botName} Diz:  Addicionando dados do cartão agora...")
+time.sleep(1);
+print(f"{botName} Diz:  Adicionando dados do cartão agora...")
 time.sleep(2)
 
 # Inputa os dados do cartão para pagamento
@@ -156,13 +103,79 @@ driver.find_element_by_css_selector('#exp-year').click()
 time.sleep(0.5)
 driver.find_element_by_css_selector('#exp-year > option:nth-child(9)').click()
 time.sleep(1)
+
 # Aceita política de privacidade
 print(f"{botName} Diz:  Pronto, agora aceitando os termos e políticas...")
 driver.find_element_by_css_selector('#security-code').send_keys('892')
 time.sleep(0.6)
+driver.find_element_by_css_selector('#installments > option:nth-child(10)').click()
+time.sleep(0.9)
 driver.find_element_by_css_selector('#linkTrocasCancelamentos').click()
 time.sleep(1)
 driver.find_element_by_css_selector('.false > button:nth-child(1)').click()
+time.sleep(1)
+print(f"{botName} Diz: Ignorando Popups");
+time.sleep(1)
+
+#Abre uma nova aba para setar o checkout
+driver.execute_script("window.open('');")
+time.sleep(1)
+driver.switch_to.window(driver.window_handles[1])
+driver.get('https://www.nike.com.br/checkout');
+time.sleep(2);
+driver.find_element_by_css_selector('.logo > a:nth-child(1) > h1:nth-child(1)').click()
+time.sleep(2);
+driver.find_element_by_css_selector('img.hidden-till-xs').click();
+time.sleep(2);
+driver.find_element_by_css_selector('.cart__remove').click()
+time.sleep(2.5);
+
+#Abre a aba do produto SNKRS desejado
+driver.get('https://www.nike.com.br/air-force-1-07-x-space-jam-a-new-legacy-153-169-211-347703');
+time.sleep(1)
+driver.execute_script("window.scrollTo(0, 500)");
+time.sleep(1)
+driver.find_element_by_css_selector('.variacoes-tamanhos__lista > li:nth-child(3) > label:nth-child(2)').click()
+time.sleep(1)
+driver.find_element_by_css_selector('#btn-comprar').click();
+time.sleep(2)
+
+print(f"{botName} Diz:  Pronto! Agora irei autenticar via SMS..")
+# Adiciona humanamente um numero de celular para receber SMS
+driver.find_element_by_name('CelularCliente').send_keys('3')
+time.sleep(2)
+driver.find_element_by_name('CelularCliente').send_keys('1')
+time.sleep(0.3)
+driver.find_element_by_name('CelularCliente').send_keys('9')
+time.sleep(0.3)
+driver.find_element_by_name('CelularCliente').send_keys('9')
+time.sleep(0.3)
+driver.find_element_by_name('CelularCliente').send_keys('3')
+time.sleep(0.3)
+driver.find_element_by_name('CelularCliente').send_keys('6')
+time.sleep(0.3)
+driver.find_element_by_name('CelularCliente').send_keys('7')
+time.sleep(0.3)
+driver.find_element_by_name('CelularCliente').send_keys('8')
+time.sleep(0.3)
+driver.find_element_by_name('CelularCliente').send_keys('6')
+time.sleep(0.3)
+driver.find_element_by_name('CelularCliente').send_keys('9')
+driver.find_element_by_name('CelularCliente').send_keys('1', Keys.RETURN)
+time.sleep(0.2)
+print(f"{botName} Diz: Autenticando..")
+time.sleep(0.2)
+print(f"{botName} Diz: Quase la..")
+time.sleep(20)
+# Método para realizar contagem em segundos para inputar código enviado para o celular
+for c in range(20, -1, -1):
+    c = c - 0
+    time.sleep(1)
+    print("Você tem {} segundos para inputar o código..".format(c))
+
+driver.find_element_by_css_selector('#modal2fa-state-1 > div:nth-child(4) > button:nth-child(1)').click()
+time.sleep(1)
+driver.switch_to.window(driver.window_handles[0])
 time.sleep(1)
 print(f"{botName} Diz:  Confirmando o pagamento...")
 # Clica no botão de pagar
