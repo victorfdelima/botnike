@@ -97,11 +97,11 @@ time.sleep(0.5)
 print(f"{botName} Diz:  Escolhendo a data exata do cartão")
 driver.find_element_by_css_selector('#exp-month').click()
 time.sleep(0.5)
-driver.find_element_by_css_selector('#exp-month > option:nth-child(4)').click()
+driver.find_element_by_css_selector('#exp-month > option:nth-child(08)').click()
 time.sleep(0.5)
 driver.find_element_by_css_selector('#exp-year').click()
 time.sleep(0.5)
-driver.find_element_by_css_selector('#exp-year > option:nth-child(9)').click()
+driver.find_element_by_css_selector('#exp-year > option:nth-child(27)').click()
 time.sleep(1)
 
 # Aceita política de privacidade
