@@ -43,7 +43,7 @@ driver.find_element_by_xpath('/html/body/div[4]/div/a').click();
 time.sleep(1);
 driver.execute_script("window.scrollTo(0, 200)");
 time.sleep(1);
-driver.find_element_by_css_selector('#variacoesTamanhos > ul > li:nth-child(1) > label').click();
+driver.find_element_by_css_selector('#variacoes > div > ul > li:nth-child(15)').click();
 time.sleep(2);
 driver.find_element_by_css_selector('#btn-comprar').click();
 time.sleep(2);
