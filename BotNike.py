@@ -20,11 +20,11 @@ print(f"{botName} Diz: Entrei no site..!")
 time.sleep(1);
 driver.find_element_by_name('emailAddress').click();
 time.sleep(0.7);
-driver.find_element_by_name('emailAddress').send_keys('lucasjefferson00@gmail.com', Keys.TAB);
+driver.find_element_by_name('emailAddress').send_keys('sergiogmribeiro@gmail.com', Keys.TAB);
 time.sleep(0.5);
 driver.find_element_by_name('password');
 time.sleep(0.5);
-driver.find_element_by_name('password').send_keys('Saw50812@');
+driver.find_element_by_name('password').send_keys('746700Sergio@');
 time.sleep(0.8);
 
 #CLICA NO BOTÃO DE LOGIN
@@ -64,34 +64,34 @@ time.sleep(2)
 
 driver.find_element_by_id('ccard-number').click()
 time.sleep(2)
-driver.find_element_by_id('ccard-number').send_keys('4716 6217 2264 7088', Keys.TAB)
+driver.find_element_by_id('ccard-number').send_keys('4831 5102 5271 0533', Keys.TAB)
 time.sleep(2)
 driver.find_element_by_id('ccard-owner').click()
 time.sleep(1)
-driver.find_element_by_id('ccard-owner').send_keys('Jefferson Lucas Gomes', Keys.TAB)
+driver.find_element_by_id('ccard-owner').send_keys('Sergio G M Ribeiro', Keys.TAB)
 time.sleep(1)
 # Adiciona o CPF
-driver.find_element_by_id('ccard-document').send_keys('5', Keys.TAB)
+driver.find_element_by_id('ccard-document').send_keys('1', Keys.TAB)
 time.sleep(0.3)
-driver.find_element_by_id('ccard-document').send_keys('5', Keys.TAB)
+driver.find_element_by_id('ccard-document').send_keys('3', Keys.TAB)
 time.sleep(0.3)
-driver.find_element_by_id('ccard-document').send_keys('5', Keys.TAB)
+driver.find_element_by_id('ccard-document').send_keys('8', Keys.TAB)
 time.sleep(0.3)
-driver.find_element_by_id('ccard-document').send_keys('5', Keys.TAB)
+driver.find_element_by_id('ccard-document').send_keys('4', Keys.TAB)
 time.sleep(0.3)
-driver.find_element_by_id('ccard-document').send_keys('5', Keys.TAB)
+driver.find_element_by_id('ccard-document').send_keys('7', Keys.TAB)
 time.sleep(0.3)
-driver.find_element_by_id('ccard-document').send_keys('5', Keys.TAB)
+driver.find_element_by_id('ccard-document').send_keys('8', Keys.TAB)
 time.sleep(0.3)
-driver.find_element_by_id('ccard-document').send_keys('5', Keys.TAB)
+driver.find_element_by_id('ccard-document').send_keys('7', Keys.TAB)
 time.sleep(0.3)
-driver.find_element_by_id('ccard-document').send_keys('5', Keys.TAB)
+driver.find_element_by_id('ccard-document').send_keys('1', Keys.TAB)
 time.sleep(0.3)
-driver.find_element_by_id('ccard-document').send_keys('5', Keys.TAB)
+driver.find_element_by_id('ccard-document').send_keys('6', Keys.TAB)
 time.sleep(0.3)
-driver.find_element_by_id('ccard-document').send_keys('5', Keys.TAB)
+driver.find_element_by_id('ccard-document').send_keys('0', Keys.TAB)
 time.sleep(0.3)
-driver.find_element_by_id('ccard-document').send_keys('5', Keys.TAB)
+driver.find_element_by_id('ccard-document').send_keys('9', Keys.TAB)
 time.sleep(0.5)
 # Coloca a data de validade do cartão
 print(f"{botName} Diz:  Escolhendo a data exata do cartão")
@@ -106,7 +106,7 @@ time.sleep(1)
 
 # Aceita política de privacidade
 print(f"{botName} Diz:  Pronto, agora aceitando os termos e políticas...")
-driver.find_element_by_css_selector('#security-code').send_keys('892')
+driver.find_element_by_css_selector('#security-code').send_keys('811')
 time.sleep(0.6)
 driver.find_element_by_css_selector('#installments > option:nth-child(10)').click()
 time.sleep(0.9)
@@ -152,16 +152,16 @@ driver.find_element_by_name('CelularCliente').send_keys('9')
 time.sleep(0.3)
 driver.find_element_by_name('CelularCliente').send_keys('3')
 time.sleep(0.3)
-driver.find_element_by_name('CelularCliente').send_keys('6')
+driver.find_element_by_name('CelularCliente').send_keys('0')
 time.sleep(0.3)
-driver.find_element_by_name('CelularCliente').send_keys('7')
+driver.find_element_by_name('CelularCliente').send_keys('3')
 time.sleep(0.3)
-driver.find_element_by_name('CelularCliente').send_keys('8')
+driver.find_element_by_name('CelularCliente').send_keys('4')
 time.sleep(0.3)
-driver.find_element_by_name('CelularCliente').send_keys('6')
+driver.find_element_by_name('CelularCliente').send_keys('1')
 time.sleep(0.3)
-driver.find_element_by_name('CelularCliente').send_keys('9')
-driver.find_element_by_name('CelularCliente').send_keys('1', Keys.RETURN)
+driver.find_element_by_name('CelularCliente').send_keys('2')
+driver.find_element_by_name('CelularCliente').send_keys('8', Keys.RETURN)
 time.sleep(0.2)
 print(f"{botName} Diz: Autenticando..")
 time.sleep(0.2)
